@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "startup_field_guide_community_facts",
+  "name": "Research Guide Pack",
+  "version": "0.7.0",
+  "repository_url": null,
+  "updated_date": "2026-10-26",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "scope": "Original editorial contributions in the selected records only, to the extent rights are held by the publisher. No ownership of facts or public-domain text is claimed. Crown and Parliamentary information retain their source-specific terms; underlying publications, filings, images, logos and trademarks are excluded from this CC BY grant.",
+    "notice": "Andrew Leung and contributors, Startup Field Guide community facts (2026). Retain attribution, provenance and license links; indicate changes. Contains Parliamentary information licensed under the Open Parliament Licence v3.0. Contains public sector information licensed under the Open Government Licence v3.0. See THIRD_PARTY_NOTICES.md. No source endorsement or blanket licence of linked works is claimed."
+  },
+  "rights_review": {
+    "status": "reviewed_for_distribution",
+    "reviewed_date": "2026-10-26",
+    "statement": "Editorial assessment of the exact selected bytes: independent factual summaries, source-specific government reuse bases and original annotations. Public availability of a corporate filing or contributed report is not treated as public-domain status. Historical references are excluded from automatic fit matching. This does not retrospectively clear previous source access or provide legal certification. See SOURCES.md, DATA_NOTICE.md and the review register."
+  },
+  "provider": {
+    "id": "startup_library",
+    "name": "Guide Pack Kit",
+    "url": null
+  },
+  "dataset_kind": "research",
+  "quality": {
+    "research": {
+      "status": "self_reviewed",
+      "reviewed_date": "2026-10-26",
+      "statement": "Editorial source and reuse review of selected records, not independent verification."
+    },
+    "matching": {
+      "status": "self_reviewed",
+      "reviewed_date": "2026-10-26",
+      "statement": "Provider-authored no-match/unknown-context cases only. No positive investor-connected case, independent accuracy rating or usefulness claim."
+    },
+    "suggestions": {
+      "status": "not_evaluated",
+      "statement": "Original editorial prompts; founder usefulness and outcomes have not been evaluated."
+    }
+  }
+}

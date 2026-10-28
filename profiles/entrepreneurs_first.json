@@ -1,0 +1,65 @@
+{
+  "id": "ef_talent_investor_001",
+  "name": "Entrepreneur First (2018 government reference)",
+  "source_url": "https://www.gov.uk/government/news/uk-and-france-to-strengthen-ties-in-ai-and-data",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "pre-company"
+  ],
+  "sector_focus": [
+    "technology"
+  ],
+  "geography_focus": [
+    "London (2018 reference)"
+  ],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.625,
+    "problem_clarity": 0.0625,
+    "technical_feasibility": 0.1875,
+    "market_urgency": 0.0625,
+    "traction_evidence": 0.0625
+  },
+  "explicit_criteria": [
+    "A July 2018 UK government release dates Entrepreneur First's founding in London to 2011.",
+    "The release describes helping individuals find cofounders and investment while forming technology companies."
+  ],
+  "anti_criteria": [],
+  "notes": "Historical account only. The former claims about current application eligibility, technical-background exceptions and worldwide program locations are removed. Current program availability and terms are unknown. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria. Contains public sector information licensed under the Open Government Licence v3.0.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "talent_investor",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://www.gov.uk/government/news/uk-and-france-to-strengthen-ties-in-ai-and-data",
+      "source_locator": "Entrepreneur First section",
+      "checked_date": "2026-10-26"
+    },
+    {
+      "field": "explicit_criteria[1]",
+      "source_url": "https://www.gov.uk/government/news/uk-and-france-to-strengthen-ties-in-ai-and-data",
+      "source_locator": "Entrepreneur First section",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. Historical account only. The former claims about current application eligibility, technical-background exceptions and worldwide program locations are removed. Current program availability and terms are unknown.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "source_published_date": "2018-07-05",
+  "source_locator": "Entrepreneur First section",
+  "review_status": "historical_reference_not_current_mandate",
+  "source_license": {
+    "id": "OGL-UK-3.0",
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "scope": "Summarized Crown release content, excluding any third-party material or logos.",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  }
+}

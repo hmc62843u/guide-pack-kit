@@ -1,0 +1,46 @@
+{
+  "id": "airbnb_2009_01_23",
+  "company": "Airbnb (then AirbedAndBreakfast)",
+  "snapshot_date": "2009-01-23",
+  "sectors": [
+    "marketplace",
+    "accommodation"
+  ],
+  "sector_basis": "Editorial tags for browsing, not original company terminology.",
+  "stage": null,
+  "fields": {
+    "product": {
+      "value": null,
+      "source_id": null
+    },
+    "customers": {
+      "value": "The January 23 correspondence identifies New York City as the largest market at that time; it supplies no customer total.",
+      "source_id": "primary"
+    },
+    "team": {
+      "value": "The founders were in New York City to meet users.",
+      "source_id": "primary"
+    },
+    "funding": {
+      "value": "The company was in a YC batch; cereal sales are mentioned as earlier financing, without an amount.",
+      "source_id": "primary"
+    }
+  },
+  "metrics": [],
+  "sources": [
+    {
+      "id": "primary",
+      "retrieved_date": "2026-10-26",
+      "title": "Subject: Airbnb (January 2009 correspondence, published March 2011)",
+      "url": "https://paulgraham.com/airbnb.html",
+      "published_date": "2011-03",
+      "evidence_type": "contemporary_correspondence_published_later",
+      "evidence_date": "2009-01-23"
+    }
+  ],
+  "limitations": [
+    "Facts are limited to the January 23, 2009 messages made public in March 2011. Permission to publish those messages was given to their publisher; it is not a downstream open license.",
+    "This record contains independent factual statements and an original editorial learning prompt, not copied messages, a transcript, an essay mirror or a translation.",
+    "Product implementation, revenue, customer totals and pilot/LOI count remain unknown. User visits do not establish that this activity caused later survival or success."
+  ]
+}

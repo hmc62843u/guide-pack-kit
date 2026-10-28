@@ -1,0 +1,42 @@
+{
+  "id": "nsf_sbir_grant_001",
+  "name": "NSF SBIR Phase I",
+  "source_url": "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology",
+  "retrieved_date": "2026-10-25",
+  "stage_focus": [
+    "idea",
+    "pre-seed"
+  ],
+  "sector_focus": [
+    "generalist"
+  ],
+  "geography_focus": [
+    "United States"
+  ],
+  "check_size_range_usd": "Up to $305,000 for Phase I; verify NSF 26-510 and current award conditions",
+  "criteria_weights": {
+    "team_credibility": 0.25,
+    "problem_clarity": 0.3,
+    "technical_feasibility": 0.35,
+    "market_urgency": 0.1,
+    "traction_evidence": 0.0
+  },
+  "explicit_criteria": [
+    "Supports high-risk technology R&D with commercial impact.",
+    "Funding spans nearly all technology areas and market sectors.",
+    "Non-dilutive funding does not remove the need to establish commercialization potential."
+  ],
+  "anti_criteria": [],
+  "notes": "Updated source to the current NSF funding opportunity referencing NSF 26-510. Removed obsolete solicitation-specific budget instructions and the unsupported assertion that customer validation is not assessed. Zero traction weight is an editorial choice, not an NSF rule. Broad sector coverage is conditional on the program mission and eligibility.",
+  "eligibility_requirements": [
+    "Review current NSF 26-510 organization, principal-investigator, ownership, and submission eligibility.",
+    "Check the current proposal process and deadlines before applying."
+  ],
+  "reviewed_date": "2026-10-25",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Curated summary of public sources. Stage and sector labels are editorial mappings, not exhaustive eligibility rules.",
+  "comparison_enabled": true,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "grant",
+  "organization_type": "grant_program"
+}

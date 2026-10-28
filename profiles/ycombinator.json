@@ -1,0 +1,52 @@
+{
+  "id": "yc_accelerator_001",
+  "name": "Y Combinator (2017 government reference)",
+  "source_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/608409/business-incubators-accelerators-uk-report.pdf",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "seed"
+  ],
+  "sector_focus": [
+    "digital technology"
+  ],
+  "geography_focus": [
+    "United States (historical reference)"
+  ],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.35,
+    "problem_clarity": 0.25,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.1,
+    "traction_evidence": 0.1
+  },
+  "explicit_criteria": [
+    "An April 2017 report prepared for the UK business department identifies Y Combinator as a US accelerator established in 2005 for digital startups."
+  ],
+  "anti_criteria": [],
+  "notes": "Historical description only. Seed is an editorial accelerator-category tag, not established present eligibility. The former USD 500,000 amount, in-person location, worldwide eligibility, building-skills and full-time conditions are removed because this report does not verify them. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "accelerator",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/608409/business-incubators-accelerators-uk-report.pdf",
+      "source_locator": "Printed page 13 / PDF page 13, Accelerators",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. Historical description only. Seed is an editorial accelerator-category tag, not established present eligibility. The former USD 500,000 amount, in-person location, worldwide eligibility, building-skills and full-time conditions are removed because this report does not verify them.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "source_published_date": "2017-04",
+  "source_locator": "Printed page 13 / PDF page 13, Accelerators",
+  "review_status": "historical_reference_not_current_mandate"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "lux_vc_deeptech_001",
+  "name": "Lux Capital / Lux Ventures IV (2017 investment reference)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312521185876/d139275ds1.htm",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "seed",
+    "series-a"
+  ],
+  "sector_focus": [],
+  "geography_focus": [],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.25,
+    "problem_clarity": 0.15,
+    "technical_feasibility": 0.35,
+    "market_urgency": 0.15,
+    "traction_evidence": 0.1
+  },
+  "explicit_criteria": [
+    "Aeva's June 2021 registration statement lists Lux Ventures IV as a participant in its 2017 seed and Series A financings.",
+    "The filing connects that fund to an Aeva director who was a Lux Capital partner."
+  ],
+  "anti_criteria": [],
+  "notes": "An observed investment by a specific affiliated fund, not evidence of today's Lux-wide stage, sector or geography mandate. Fund affiliation is checked in the filing rather than inferred solely from a similar name. Round totals are not reported as Lux's own investment amount. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria.",
+  "eligibility_requirements": [],
+  "review_status": "historical_reference_not_current_mandate",
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312521185876/d139275ds1.htm",
+      "source_locator": "Printed pages 87-88 (Series A and Series Seed financings) and 91 (Lux partner affiliation)",
+      "checked_date": "2026-10-26"
+    },
+    {
+      "field": "explicit_criteria[1]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312521185876/d139275ds1.htm",
+      "source_locator": "Printed pages 87-88 (Series A and Series Seed financings) and 91 (Lux partner affiliation)",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. An observed investment by a specific affiliated fund, not evidence of today's Lux-wide stage, sector or geography mandate. Fund affiliation is checked in the filing rather than inferred solely from a similar name. Round totals are not reported as Lux's own investment amount.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "source_published_date": "2021-06-08",
+  "source_locator": "Printed pages 87-88 (Series A and Series Seed financings) and 91 (Lux partner affiliation)"
+}

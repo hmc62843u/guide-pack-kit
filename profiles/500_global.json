@@ -1,0 +1,48 @@
+{
+  "id": "500global_vc_emerging_001",
+  "name": "500 Startups (2025 SelectUSA reference)",
+  "source_url": "https://www.trade.gov/sites/default/files/2025-03/2025%20SelectUSA%20Investor%20Guide.pdf",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "seed"
+  ],
+  "sector_focus": [],
+  "geography_focus": [],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.5,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.1,
+    "market_urgency": 0.15,
+    "traction_evidence": 0.05
+  },
+  "explicit_criteria": [
+    "The March 2025 SelectUSA Investor Guide includes 500 Startups among its examples of equity-based accelerators."
+  ],
+  "anti_criteria": [],
+  "notes": "A dated classification under the name used by the guide, not verification of the current name, fund mandate, geography, check size or participation requirements. Seed is an editorial category for the described accelerator model. The legacy record ID is retained for continuity. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://www.trade.gov/sites/default/files/2025-03/2025%20SelectUSA%20Investor%20Guide.pdf",
+      "source_locator": "Printed page 171 / PDF page 177, Equity-Based Accelerators",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. A dated classification under the name used by the guide, not verification of the current name, fund mandate, geography, check size or participation requirements. Seed is an editorial category for the described accelerator model. The legacy record ID is retained for continuity.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "source_published_date": "2025-03",
+  "source_locator": "Printed page 171 / PDF page 177, Equity-Based Accelerators",
+  "review_status": "historical_reference_not_current_mandate"
+}

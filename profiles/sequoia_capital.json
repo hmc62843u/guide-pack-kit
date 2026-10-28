@@ -1,0 +1,56 @@
+{
+  "id": "sequoia_vc_seed_001",
+  "name": "Sequoia-affiliated funds (2020 filing reference)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1691421/000104746920003912/a2241997zs-1a.htm",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "seed",
+    "series-a"
+  ],
+  "sector_focus": [],
+  "geography_focus": [],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.4,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.1,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.1
+  },
+  "explicit_criteria": [
+    "Lemonade's June 2020 public registration statement lists a Sequoia Capital Israel-affiliated holding fund among its stockholders.",
+    "The cited ownership note lists seed, Series A and Series B preferred shares held by that entity."
+  ],
+  "anti_criteria": [],
+  "notes": "This describes a historical affiliated entity and its disclosed share classes, not the current scope of any Sequoia-branded firm. Browsing tags reflect observed share-class labels, not screening rules. The previous customer-learning topic and current-criteria claims are removed because this alternative source does not establish them. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1691421/000104746920003912/a2241997zs-1a.htm",
+      "source_locator": "Principal Stockholders, footnote 2",
+      "checked_date": "2026-10-26"
+    },
+    {
+      "field": "explicit_criteria[1]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1691421/000104746920003912/a2241997zs-1a.htm",
+      "source_locator": "Principal Stockholders, footnote 2",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. This describes a historical affiliated entity and its disclosed share classes, not the current scope of any Sequoia-branded firm. Browsing tags reflect observed share-class labels, not screening rules. The previous customer-learning topic and current-criteria claims are removed because this alternative source does not establish them.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "source_published_date": "2020-06-30",
+  "source_locator": "Principal Stockholders, footnote 2",
+  "review_status": "historical_reference_not_current_mandate"
+}

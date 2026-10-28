@@ -1,0 +1,46 @@
+{
+  "id": "doordash_2013_01_12",
+  "company": "DoorDash (launch service in Palo Alto)",
+  "snapshot_date": "2013-01-12",
+  "sectors": [
+    "marketplace",
+    "local delivery"
+  ],
+  "sector_basis": "Editorial browsing tags, not a historical investor classification.",
+  "stage": null,
+  "fields": {
+    "product": {
+      "value": "A website listed restaurant menus for a local delivery service in Palo Alto.",
+      "source_id": "primary"
+    },
+    "customers": {
+      "value": "The founders report receiving the first order within hours of launching and delivering it. No customer total is supplied for this snapshot.",
+      "source_id": "primary"
+    },
+    "team": {
+      "value": null,
+      "source_id": null
+    },
+    "funding": {
+      "value": null,
+      "source_id": null
+    }
+  },
+  "metrics": [],
+  "sources": [
+    {
+      "id": "primary",
+      "title": "DoorDash S-1/A, Our Mission (filed November 30, 2020)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000119312520304953/d752207ds1a.htm",
+      "published_date": "2020-11-30",
+      "retrieved_date": "2026-10-26",
+      "evidence_type": "retrospective_account"
+    }
+  ],
+  "limitations": [
+    "Retrospective company account, not independently verified contemporary evidence. Later adoption, revenue, funding and outcomes are excluded from this snapshot.",
+    "Only independently written limited facts and original annotations are included; no article text, filing table, image, logo or code is reproduced.",
+    "Sector tags and learning prompts are editorial. Company stage, funding amount and customer totals remain unknown. The activity does not establish what caused later survival.",
+    "This is the January 12 launch, not the unresolved April 26, 2013 interview snapshot. No later delivery count is transferred backward. Corporate filings are not automatically public domain."
+  ]
+}

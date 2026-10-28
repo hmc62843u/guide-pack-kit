@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    "profiles/500_global.json",
+    "profiles/entrepreneurs_first.json",
+    "profiles/firstminute_capital.json",
+    "profiles/innovateuk_smart.json",
+    "profiles/intel_capital.json",
+    "profiles/lux_capital.json",
+    "profiles/nsf_sbir_phase1.json",
+    "profiles/sequoia_capital.json",
+    "profiles/ycombinator.json"
+  ],
+  "snapshots": [
+    "startups/airbnb_2009_01_23.json",
+    "startups/doordash_2013_01_12.json",
+    "startups/gitlab_2011_10_08.json"
+  ]
+}

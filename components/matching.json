@@ -1,0 +1,151 @@
+{
+  "investor_topics": [],
+  "rules": [
+    {
+      "id": "rule_airbnb_2009_01_23_0",
+      "type": "context_topic_v1",
+      "snapshot_id": "airbnb_2009_01_23",
+      "suggestion_id": "direct-customer-learning",
+      "topic": "customer_learning",
+      "business_models": [
+        "marketplace",
+        "service"
+      ],
+      "startup_stages": [
+        "pre-company",
+        "idea",
+        "pre-seed"
+      ],
+      "validation_focus": [
+        "customer_problem"
+      ],
+      "evidence_fields": [
+        "team"
+      ],
+      "source_ids": [
+        "primary"
+      ]
+    },
+    {
+      "id": "rule_doordash_2013_01_12_1",
+      "type": "context_topic_v1",
+      "snapshot_id": "doordash_2013_01_12",
+      "suggestion_id": "bounded-local-service",
+      "topic": "customer_learning",
+      "business_models": [
+        "marketplace",
+        "service"
+      ],
+      "startup_stages": [
+        "pre-company",
+        "idea",
+        "pre-seed"
+      ],
+      "validation_focus": [
+        "demand",
+        "operations"
+      ],
+      "evidence_fields": [
+        "product"
+      ],
+      "source_ids": [
+        "primary"
+      ]
+    },
+    {
+      "id": "rule_gitlab_2011_10_08_2",
+      "type": "context_topic_v1",
+      "snapshot_id": "gitlab_2011_10_08",
+      "suggestion_id": "own-workflow-prototype",
+      "topic": "customer_learning",
+      "business_models": [
+        "saas",
+        "other"
+      ],
+      "startup_stages": [
+        "pre-company",
+        "idea",
+        "pre-seed"
+      ],
+      "validation_focus": [
+        "technical_feasibility"
+      ],
+      "evidence_fields": [
+        "product"
+      ],
+      "source_ids": [
+        "primary"
+      ]
+    }
+  ],
+  "evaluation_cases": [
+    {
+      "id": "no_investor_topic",
+      "name": "Demand case has no supported investor connection",
+      "startup": {
+        "business_model": "marketplace",
+        "current_stage": "pre-seed",
+        "validation_focus": "demand",
+        "sectors": [
+          "marketplace"
+        ]
+      },
+      "investor_ids": [
+        "firstminute_vc_seed_001"
+      ],
+      "expected_suggestion_ids": [],
+      "rationale": "The library has a DoorDash action candidate but no supported investor-topic link."
+    },
+    {
+      "id": "no_customer_topic",
+      "name": "Customer-learning case has no supported investor connection",
+      "startup": {
+        "business_model": "marketplace",
+        "current_stage": "pre-seed",
+        "validation_focus": "customer_problem",
+        "sectors": [
+          "marketplace"
+        ]
+      },
+      "investor_ids": [
+        "firstminute_vc_seed_001"
+      ],
+      "expected_suggestion_ids": [],
+      "rationale": "The Airbnb lesson alone does not establish firstminute priorities."
+    },
+    {
+      "id": "unknown_real_stage",
+      "name": "Unknown stage cannot create a connection",
+      "startup": {
+        "business_model": "marketplace",
+        "current_stage": null,
+        "validation_focus": "demand",
+        "sectors": [
+          "marketplace"
+        ]
+      },
+      "investor_ids": [
+        "firstminute_vc_seed_001"
+      ],
+      "expected_suggestion_ids": [],
+      "rationale": "Unknown context is not inferred as an eligible stage."
+    },
+    {
+      "id": "no_nsf_topic",
+      "name": "Grant comparison does not create a topic",
+      "startup": {
+        "business_model": "hardware",
+        "current_stage": "idea",
+        "validation_focus": "technical_feasibility",
+        "sectors": [
+          "marketplace"
+        ]
+      },
+      "investor_ids": [
+        "nsf_sbir_grant_001"
+      ],
+      "expected_suggestion_ids": [],
+      "rationale": "A comparable grant profile is not a sourced learning-topic connection."
+    }
+  ]
+}

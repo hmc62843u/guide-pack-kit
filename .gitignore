@@ -1,0 +1,17 @@
+dist/*
+!dist/guide-pack.json
+.env*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+release/
+
+# Private research and local artifacts are not publication inputs.
+*.pfx
+*.log
+Desktop.ini
+/private/
+/imports/
+/.local/
+node_modules/

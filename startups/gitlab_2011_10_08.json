@@ -1,0 +1,48 @@
+{
+  "id": "gitlab_2011_10_08",
+  "company": "GitLab (initial project)",
+  "snapshot_date": "2011-10-08",
+  "sectors": [
+    "developer tools",
+    "software"
+  ],
+  "sector_basis": "Editorial tags for the initial software project; not evidence of a paid SaaS model at this date.",
+  "stage": null,
+  "fields": {
+    "product": {
+      "value": "A locally usable development tool was started to address the creators' own need; the first commit dates to October 8, 2011.",
+      "source_id": "primary"
+    },
+    "customers": {
+      "value": null,
+      "source_id": null
+    },
+    "team": {
+      "value": null,
+      "source_id": null
+    },
+    "funding": {
+      "value": null,
+      "source_id": null
+    }
+  },
+  "metrics": [],
+  "sources": [
+    {
+      "id": "primary",
+      "title": "Letter from shareholders (October 8, 2014 retrospective)",
+      "url": "https://about.gitlab.com/blog/letter-from-shareholders/",
+      "published_date": "2014-10-08",
+      "retrieved_date": "2026-10-26",
+      "evidence_type": "retrospective_account"
+    }
+  ],
+  "limitations": [
+    "Retrospective company account, not independently verified contemporary evidence. Later adoption, revenue, funding and outcomes are excluded from this snapshot.",
+    "Only independently written limited facts and original annotations are included; no article text, filing table, image, logo or code is reproduced.",
+    "Sector tags and learning prompts are editorial. Company stage, funding amount and customer totals remain unknown. The activity does not establish what caused later survival.",
+    "The first-commit date is inferred from the dated October 8, 2014 statement that the first commit was three years earlier. A first commit is not proof of a complete product or external demand.",
+    "The retrospective identifies two original creators but does not establish a complete team roster on the snapshot date. No later community counts, paid edition or customer requests are assigned to this day.",
+    "No software licence is assumed to license the linked article. The record uses independently stated facts rather than adapting protected article expression."
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "direct-customer-learning",
+    "title": "Learn directly from a small customer group",
+    "target_task_id": "suggestion:customer-evidence",
+    "approach": "Plan a few direct customer conversations around your key uncertainty. Record what changed your understanding and what remains unknown.",
+    "interpretation": "Editorial interpretation of the dated facts, not advice published by the company or investor.",
+    "caution": "Selected success stories have survivorship bias. Adapt the method to your context; historical counts are not targets."
+  },
+  {
+    "id": "bounded-local-service",
+    "title": "Try a bounded local service",
+    "target_task_id": "suggestion:next-milestone",
+    "approach": "Choose one small service area and a narrow offer you can safely deliver. Record requests, completed service and operational problems before expanding. Decide the scope and stop conditions yourself.",
+    "interpretation": "Original editorial learning prompt based on the limited dated facts, not company or investor advice.",
+    "caution": "A selected surviving company is not evidence of causation or a success guarantee. Define your own limits and stop conditions; historical activity is not a target."
+  },
+  {
+    "id": "own-workflow-prototype",
+    "title": "Test one workflow you know",
+    "target_task_id": "suggestion:product-evidence",
+    "approach": "Identify one concrete problem in a workflow you experience directly. Build the smallest test of the difficult part, record what works and fails, and seek external user evidence separately before inferring demand.",
+    "interpretation": "Original editorial learning prompt based on the limited dated facts, not company or investor advice.",
+    "caution": "A selected surviving company is not evidence of causation or a success guarantee. Define your own limits and stop conditions; historical activity is not a target."
+  }
+]

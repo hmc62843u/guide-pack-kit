@@ -1,0 +1,2 @@
+# Preserve reviewed record bytes and recognize Windows line endings.
+* -text whitespace=cr-at-eol

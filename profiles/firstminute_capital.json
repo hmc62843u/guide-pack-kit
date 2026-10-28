@@ -1,0 +1,43 @@
+{
+  "id": "firstminute_vc_seed_001",
+  "name": "firstminute capital",
+  "source_url": "https://www.firstminute.capital/about",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "pre-seed",
+    "seed"
+  ],
+  "sector_focus": [
+    "vertical AI applications",
+    "deep tech",
+    "generalist"
+  ],
+  "geography_focus": [
+    "Europe",
+    "UK",
+    "selective global"
+  ],
+  "check_size_range_usd": "£1M - £3M",
+  "criteria_weights": {
+    "team_credibility": 0.35,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.15,
+    "market_urgency": 0.15,
+    "traction_evidence": 0.15
+  },
+  "explicit_criteria": [
+    "Funds companies at pre-seed and seed.",
+    "Primarily invests in Europe and the UK, with some investments elsewhere.",
+    "Considers multiple sectors; AI software and deep technology are stated areas of expertise."
+  ],
+  "anti_criteria": [],
+  "notes": "Independent factual summary of the official About page, checked 2026-10-26. The GBP 1m-3m amount is not a USD conversion. Numeric weights are original editorial estimates, not the fund's scoring system. No endorsements, marketing quotations or testimonials are reproduced.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Independent factual summary with original editorial stage/sector mappings; not an official investor profile or exhaustive eligibility rules.",
+  "comparison_enabled": true,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "vc"
+}

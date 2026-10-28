@@ -1,0 +1,58 @@
+{
+  "id": "intelcapital_corporate_001",
+  "name": "Intel Capital (2026 transaction reference)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000066/intc-20260323.htm",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "series-a",
+    "growth"
+  ],
+  "sector_focus": [
+    "semiconductors"
+  ],
+  "geography_focus": [],
+  "check_size_range_usd": "unknown; this reference does not establish a typical investment range",
+  "criteria_weights": {
+    "team_credibility": 0.25,
+    "problem_clarity": 0.15,
+    "technical_feasibility": 0.35,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.05
+  },
+  "explicit_criteria": [
+    "Intel's March 2026 proxy describes an Intel Capital investment in a power-management chip company's Series A financing in January 2026.",
+    "It also describes a March 2026 Series D investment in an advanced-packaging substrate company."
+  ],
+  "anti_criteria": [],
+  "notes": "Two disclosed transactions, not a complete investor mandate or a promise of current funding. Growth is an editorial grouping of the Series D observation. The filing does not identify these companies by name in the cited section; no names or typical check range are inferred. Reference-only: excluded from automatic fit comparisons. Numeric weights are original editorial compatibility data, not published scoring criteria.",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Dated factual reference from an alternative government publication or public regulatory filing. It is not a current investor selection profile.",
+  "comparison_enabled": false,
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "equity",
+  "organization_type": "corporate_vc",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000066/intc-20260323.htm",
+      "source_locator": "Related Party Transactions, Company A and Company B",
+      "checked_date": "2026-10-26"
+    },
+    {
+      "field": "explicit_criteria[1]",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000066/intc-20260323.htm",
+      "source_locator": "Related Party Transactions, Company A and Company B",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original compatibility estimates; not used for matching because this record is reference-only.",
+    "stage_focus": "Historical browsing labels only. Two disclosed transactions, not a complete investor mandate or a promise of current funding. Growth is an editorial grouping of the Series D observation. The filing does not identify these companies by name in the cited section; no names or typical check range are inferred.",
+    "sector_focus": "Observed topic grouping; an empty list denotes no verified mandate."
+  },
+  "review_status": "historical_reference_not_current_mandate",
+  "source_published_date": "2026-03-23",
+  "source_locator": "Related Party Transactions, Company A and Company B"
+}

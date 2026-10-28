@@ -1,0 +1,62 @@
+{
+  "id": "innovateuk_smart_grant_001",
+  "name": "Innovate UK Smart Grants (historical reference)",
+  "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2025-02-21/31848",
+  "retrieved_date": "2026-10-26",
+  "stage_focus": [
+    "idea",
+    "pre-seed",
+    "seed"
+  ],
+  "sector_focus": [],
+  "geography_focus": [
+    "United Kingdom"
+  ],
+  "check_size_range_usd": "unknown; the historical status answer does not establish award terms",
+  "criteria_weights": {
+    "team_credibility": 0.15,
+    "problem_clarity": 0.3,
+    "technical_feasibility": 0.15,
+    "market_urgency": 0.25,
+    "traction_evidence": 0.15
+  },
+  "explicit_criteria": [
+    "A ministerial answer published on 26 February 2025 reported that Innovate UK had paused Smart Grants.",
+    "The answer also reported an evaluation of the programme and plans to revise support for startups and smaller businesses."
+  ],
+  "anti_criteria": [],
+  "notes": "Historical status as of the ministerial answer, not confirmation of availability in October 2026. This answer establishes neither current award limits nor application eligibility. Stage labels are editorial browsing categories only; matching is disabled. Numeric weights are original editorial annotations retained for format compatibility, not source facts or published investor criteria. Contains Parliamentary information licensed under the Open Parliament Licence v3.0.",
+  "comparison_enabled": false,
+  "review_status": "historical_reference_no_current_availability_claim",
+  "eligibility_requirements": [],
+  "reviewed_date": "2026-10-26",
+  "weights_basis": "editor_estimate",
+  "profile_basis": "Independent factual summary. Structured stage/sector labels and numeric weights are explicitly editorial, separate from the dated source statements.",
+  "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
+  "funding_type": "grant",
+  "organization_type": "grant_program",
+  "claim_sources": [
+    {
+      "field": "explicit_criteria[0]",
+      "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2025-02-21/31848",
+      "checked_date": "2026-10-26"
+    },
+    {
+      "field": "explicit_criteria[1]",
+      "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2025-02-21/31848",
+      "checked_date": "2026-10-26"
+    }
+  ],
+  "editorial_annotations": {
+    "criteria_weights": "Original discussion estimates, not a factual claim about the organization.",
+    "stage_focus": "Historical status as of the ministerial answer, not confirmation of availability in October 2026. This answer establishes neither current award limits nor application eligibility. Stage labels are editorial browsing categories only; matching is disabled.",
+    "sector_focus": "Editorial topic labels; an empty list means no verified mandate, not an exclusion."
+  },
+  "source_published_date": "2025-02-26",
+  "source_license": {
+    "id": "OPL-UK-3.0",
+    "url": "https://www.parliament.uk/site-information/copyright/open-parliament-licence/",
+    "attribution": "Contains Parliamentary information licensed under the Open Parliament Licence v3.0.",
+    "scope": "Parliamentary information from the ministerial answer. No images, logos, personal data or source material identified as outside that licence is reproduced."
+  }
+}
