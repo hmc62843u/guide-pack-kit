@@ -15,3 +15,6 @@ Desktop.ini
 /imports/
 /.local/
 node_modules/
+
+# Browser-readable convenience copy of the reviewed complete pack.
+!dist/active-pack.js

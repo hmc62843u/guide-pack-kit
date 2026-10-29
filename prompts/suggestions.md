@@ -11,4 +11,4 @@ For each changed action, make the next step understandable, bounded in effort an
 
 Ask reviewers or founders whether they understand the step, can attempt it, see why it applies and know what learning to record. Record the actual sample size, feedback and changes made. If no user review occurred, say so. A correctly matched suggestion is not automatically useful, endorsed by an investor or causally supported by a startup outcome.
 
-Home selection and general fallback copy belong to Startup Guide, not this pack file.
+Next-move selection and general fallback copy belong to Startup Guide, not this pack file.

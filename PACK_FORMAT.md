@@ -1,6 +1,6 @@
 # Guide Pack format
 
-This kit targets startup-guide's v2 contract. The exact shape is in schema/guide-pack-v2.schema.json; the app's GUIDE_PACKS.md describes constraints and examples. Runtime validation additionally checks dates, references, supported contexts and source URLs. Schemas are format references, not factual or legal approval.
+This kit targets startup-guide's v2 contract. The exact shape is in schema/guide-pack-v2.schema.json; [GUIDE_PACKS.md](GUIDE_PACKS.md) describes authoring, validation constraints and examples. Runtime validation additionally checks dates, references, supported contexts and source URLs. Schemas are format references, not factual or legal approval.
 
 ## Three components, one JSON
 
@@ -99,7 +99,7 @@ flowchart TD
     Candidate --> Merge["Merge evidence for the same suggestion ID"]
 ```
 
-This is a conceptual activity view of candidate eligibility, not JavaScript execution order. The app examines eligible combinations; one failed combination does not prevent another from matching. A selected lens restricts profiles; an unselected lens permits preview without choosing one. Candidate matching does not determine Home ordering or prove usefulness, funding or survival.
+This is a conceptual activity view of candidate eligibility, not JavaScript execution order. The app examines eligible combinations; one failed combination does not prevent another from matching. A selected lens restricts profiles; an unselected lens permits preview without choosing one. Candidate matching does not determine Next-move ordering or prove usefulness, funding or survival.
 
 Self-tests pass hypothetical inputs through this same matcher and compare expected with actual suggestion IDs. Their detailed contract is below.
 
@@ -146,7 +146,7 @@ flowchart LR
 | Investor lens | `investor_ids`: unique existing profile IDs. `[]` means an unselected lens, allowing preview across comparable profiles. |
 | Expected output | `expected_suggestion_ids`: unique existing suggestion IDs. `[]` expects no connected suggestion. |
 
-These are hypothetical inputs, not additional historical startup facts. The app uses the same candidate matcher with fresh decisions for each case and displays expected/actual actions and coverage. Providers cannot supply evaluator code, arbitrary operators or hidden pass/fail functions.
+These are hypothetical inputs, not additional historical startup facts. The app development evaluator uses the same candidate matcher with fresh decisions for each case and returns expected/actual actions and coverage. The lean interface has no evaluation panel; call the evaluator separately when development tools are available. Providers cannot supply evaluator code, arbitrary operators or hidden pass/fail functions.
 
 | Coverage to include | What it checks |
 | --- | --- |
@@ -158,13 +158,13 @@ Use these cases where the research supports them. Do not invent investor topics 
 
 | Result or limit | Meaning |
 | --- | --- |
-| Maximum 50 cases | Cases are optional. Packs without them remain compatible; running them requires the current app. |
+| Maximum 50 cases | Cases are optional. Packs without them remain compatible; running them requires the app development evaluator. |
 | No cases | No measured result. |
 | All cases expect no match | No positive coverage, even if every expectation agrees. |
 | Agreement | Provider-authored self-test agreement, not an independent accuracy measurement. |
-| Mismatch | Shown for review. A structurally valid pack can still be explicitly activated; a provider expectation is not automatically the correct answer. |
-| Malformed case or reference | Validation blocks import; this differs from a valid case whose expectation disagrees. |
-| Outside scope | Home ordering, progress decisions, research truth, causality and suggestion usefulness. |
+| Mismatch | Report for review. A structurally valid pack remains usable; a provider expectation is not automatically the correct answer. |
+| Malformed case or reference | Data validation rejects the pack; this differs from a valid case whose expectation disagrees. |
+| Outside scope | Next-move ordering, progress decisions, research truth, causality and suggestion usefulness. |
 
 Increase the package version when cases change. Establish expectations before running them; evaluate source quality and usefulness separately as described below.
 
@@ -178,10 +178,14 @@ V1 packages still work in the app but lack provider and quality metadata. The ap
 
 Check research support against actual sources. Establish expected match/nonmatch/unknown cases before running them. Evaluate suggestion clarity and learning value with users separately. Record sample sizes and actual results; do not claim accuracy from a passing format check. The app's tests check particular behaviors, not universal correctness or startup success.
 
-Review changed facts, annotations and distribution terms; maintain exact saved-byte hashes in review-register.json and source notices in SOURCES.md. Increase the package version for changed JSON. Import and preview in startup-guide, activate explicitly, inspect evidence, test matching and nonmatching situations, reload and switch libraries. Report unperformed checks honestly. Do not publish or push unless requested.
+Review changed facts, annotations and distribution terms; maintain exact saved-byte hashes in review-register.json and source notices in SOURCES.md. Increase the package version for changed JSON. Configure the trusted browser pack file using LOCAL_APP.md, inspect evidence, test matching and nonmatching situations, reload and replace the configured pack to check workspace isolation. Report unperformed checks honestly. Do not publish or push unless requested.
+
+## Browser delivery
+
+The assigned JSON follows this contract. For direct-file use, distribute a synchronized active-pack.js containing only globalThis.STARTUP_GUIDE_PACK = followed by that complete JSON object and a semicolon. This is a trusted delivery wrapper, not a provider matching engine. Data validation does not make arbitrary browser scripts safe. See [LOCAL_APP.md](LOCAL_APP.md).
 
 ## Authoring layout
 
 `AUTHORING_PROMPT.md` coordinates focused stages in `prompts/`; `CONTRIBUTING.md` maps quality goals to extension points and review methods. These authoring modules do not change the JSON contract or allow imported executable code.
 
-The kit uses catalog.json to select research records by root-relative paths, schema/ for format definitions, components/ for the decision recipe and suggestions, package-metadata.json for declarations, and dist/guide-pack.json as the complete deliverable. Keep provider and library IDs stable when renaming products; the existing starter IDs are retained for workspace compatibility. Edit this contract in guide-pack-kit, then refresh its copy in startup-guide/packs/ together with the package and notices.
+The kit uses catalog.json to select research records by root-relative paths, schema/ for format definitions, components/ for the decision recipe and suggestions, package-metadata.json for declarations, and dist/guide-pack.json as the complete deliverable. Keep provider and library IDs stable when renaming products; the existing starter IDs are retained for workspace compatibility. Maintain this contract in guide-pack-kit. Startup Guide retains runtime schemas and validators; refresh its package and required notices together only when authorized.
