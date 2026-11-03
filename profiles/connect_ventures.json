@@ -1,0 +1,85 @@
+{
+  "id": "connect_ventures_current_001",
+  "name": "Connect Ventures",
+  "data_kind": "research",
+  "source_url": "https://www.connectventures.co/",
+  "retrieved_date": "2026-10-30",
+  "reviewed_date": "2026-10-30",
+  "stage_focus": [
+    "pre-seed",
+    "seed"
+  ],
+  "sector_focus": [
+    "AI",
+    "hardware",
+    "automation"
+  ],
+  "geography_focus": [
+    "Europe",
+    "UK"
+  ],
+  "check_size_range_usd": "Unknown individual check; published USD 500,000 to 5,000,000 is a round range",
+  "criteria_weights": {
+    "team_credibility": 0.2,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.2
+  },
+  "weights_basis": "editor_estimate",
+  "weight_notes": "Equal compatibility placeholders required by the legacy profile format; not investor weights and not used for fundraising fit.",
+  "profile_basis": "Independent limited factual paraphrase of official pages checked 2026-10-30. Category labels are editorial mappings, not full eligibility rules.",
+  "comparison_enabled": true,
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "explicit_criteria": [
+    "Describes pre-seed specialization and pre-seed/seed investing; the broad seed label needs confirmation for a new investment.",
+    "Focus combines AI, hardware and automation; a single matching label does not establish thesis fit.",
+    "Invests across Europe from London; UK is an editorial regional mapping."
+  ],
+  "eligibility_requirements": [
+    "Technical founder and product depth need separate review.",
+    "The USD 500,000 to 5,000,000 figure describes rounds led or co-led, not the individual investor check."
+  ],
+  "anti_criteria": [],
+  "notes": "No experiment-topic connection or funding outcome is established. Missing criteria remain unknown. See source links and additional conditions before outreach.",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-seed",
+        "seed"
+      ],
+      "statement": "Describes pre-seed specialization and pre-seed/seed investing; the broad seed label needs confirmation for a new investment.",
+      "source_url": "https://www.connectventures.co/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "sector",
+      "values": [
+        "AI",
+        "hardware",
+        "automation"
+      ],
+      "statement": "Focus combines AI, hardware and automation; a single matching label does not establish thesis fit.",
+      "source_url": "https://www.connectventures.co/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "geography",
+      "values": [
+        "Europe",
+        "UK"
+      ],
+      "statement": "Invests across Europe from London; UK is an editorial regional mapping.",
+      "source_url": "https://www.connectventures.co/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    }
+  ]
+}

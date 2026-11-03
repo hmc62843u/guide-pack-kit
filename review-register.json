@@ -23,8 +23,9 @@
       "name": "firstminute capital",
       "status": "reviewed_for_distribution",
       "reuse_basis": "Independent statement of limited public facts, with original editorial mappings/interpretation. US Copyright Office distinguishes facts from protected expression: https://www.copyright.gov/help/faq/faq-general.html . Only stage, broad geography, sector themes and currency-labelled amount remain, stated independently. No copied promotional narrative, testimonials, images or branding. About-page footer and linked privacy policy were checked; no affirmative open-content grant is claimed. Direct policy retrieval returned 403 on this pass; the earlier indexed policy concerned personal-data processing. This is an editorial assessment, not a source-issued license, worldwide legal assurance or an endorsement. Original editorial contributions may be licensed separately; underlying source works remain excluded.",
-      "reviewed_date": "2026-10-26",
-      "reviewed_sha256": "5bc00e8d739872f2ba4ffe420adbd988a1245f3116bb9ef11302abca67de1a06"
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "65f219974681156dee1678e19f2ad2ed36964821e4441586720af1f74c118054",
+      "change_note": "Fixed legacy currency display to explicit GBP; typed claims unchanged."
     },
     {
       "path": "profiles/innovateuk_smart.json",
@@ -113,6 +114,54 @@
       "reviewed_date": "2026-10-26",
       "reviewed_sha256": "a9d4ec23b0255057d192fefe18be4c32fb1d0d4f51666b79d8fa2d43b3067086",
       "reuse_basis": "Original editorial contexts and learning prompts extracted from the previously reviewed snapshots without adding historical or investor claims. Underlying sources and limitations remain in the records and notices; no investor topic or endorsement is invented."
+    },
+    {
+      "path": "profiles/hustle_fund.json",
+      "name": "Hustle Fund",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "da73acacf283bb8a88e4b48fc7395ed84f512eb85272331fb669e585fc22c338",
+      "reuse_basis": "Editorial review of independent limited factual paraphrases and original categorical mappings. No copied promotional passages, testimonials, images or branding. Original editorial contributions only fall within the pack licence; linked source works remain excluded. No source-issued open-content licence or endorsement is claimed."
+    },
+    {
+      "path": "profiles/ada_ventures.json",
+      "name": "Ada Ventures",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "54d06b9d73189f2b994108998f86d789f3d0dfc85587cdd6093b89858a33f60b",
+      "reuse_basis": "Editorial review of independent limited factual paraphrases and original categorical mappings. No copied promotional passages, testimonials, images or branding. Original editorial contributions only fall within the pack licence; linked source works remain excluded. No source-issued open-content licence or endorsement is claimed."
+    },
+    {
+      "path": "profiles/concept_ventures.json",
+      "name": "Concept Ventures",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "b779da16102d875d135f10489e7230289b95250c8606df651ebae739c83bb200",
+      "reuse_basis": "Editorial review of independent limited factual paraphrases and original categorical mappings. No copied promotional passages, testimonials, images or branding. Original editorial contributions only fall within the pack licence; linked source works remain excluded. No source-issued open-content licence or endorsement is claimed."
+    },
+    {
+      "path": "profiles/connect_ventures.json",
+      "name": "Connect Ventures",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "02a3128f444fa46c722e8029985d0ef4961b7a66e0519c46a5a41e5c262a12a4",
+      "reuse_basis": "Editorial review of independent limited factual paraphrases and original categorical mappings. No copied promotional passages, testimonials, images or branding. Original editorial contributions only fall within the pack licence; linked source works remain excluded. No source-issued open-content licence or endorsement is claimed."
+    },
+    {
+      "path": "profiles/boldstart_ventures.json",
+      "name": "boldstart ventures",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "c412d5381df265072379a014433142354e57f3cc99100f4f53e4c0d5ddeba773",
+      "reuse_basis": "Editorial review of independent limited factual paraphrases and original categorical mappings. No copied promotional passages, testimonials, images or branding. Original editorial contributions only fall within the pack licence; linked source works remain excluded. No source-issued open-content licence or endorsement is claimed."
+    },
+    {
+      "path": "components/relationships.json",
+      "name": "Public relationship examples",
+      "status": "reviewed_for_distribution",
+      "reviewed_date": "2026-10-30",
+      "reviewed_sha256": "511d139240ef952668f3a880a936d73bcadaea3086fa333821a626345b9c586e",
+      "reuse_basis": "Independent limited factual paraphrases from named primary pages and identity/activity links to an already reviewed snapshot. No copied narrative, testimonials, tables, media or personal contacts. Original mappings and summaries only; source works retain their rights. Editorial assessment, not independent factual or legal certification."
     }
   ]
 }

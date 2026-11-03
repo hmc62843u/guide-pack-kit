@@ -17,7 +17,7 @@
     "UK",
     "selective global"
   ],
-  "check_size_range_usd": "£1M - £3M",
+  "check_size_range_usd": "GBP 1M - GBP 3M (not USD)",
   "criteria_weights": {
     "team_credibility": 0.35,
     "problem_clarity": 0.2,
@@ -39,5 +39,55 @@
   "comparison_enabled": true,
   "weight_notes": "Estimated relative emphasis for discussion; not published investor scoring weights and not application requirements.",
   "funding_type": "equity",
-  "organization_type": "vc"
+  "organization_type": "vc",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-seed",
+        "seed"
+      ],
+      "strict": true,
+      "statement": "The stated mandate covers pre-seed and seed.",
+      "basis": "declared",
+      "source_url": "https://www.firstminute.capital/about",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "field": "sector",
+      "values": [
+        "technology",
+        "vertical AI applications",
+        "deep tech"
+      ],
+      "strict": false,
+      "statement": "The firm describes a sector-agnostic technology focus, with expertise in vertical AI applications and deep tech. These matching labels are a conservative editorial mapping.",
+      "basis": "declared",
+      "source_url": "https://www.firstminute.capital/about",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "field": "geography",
+      "values": [
+        "Europe",
+        "UK"
+      ],
+      "strict": false,
+      "statement": "Europe and UK are the primary focus, with occasional investments elsewhere.",
+      "basis": "declared",
+      "source_url": "https://www.firstminute.capital/about",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "field": "check",
+      "min": 1000000,
+      "max": 3000000,
+      "currency": "GBP",
+      "strict": false,
+      "statement": "The stated typical investment is GBP 1 million to 3 million.",
+      "basis": "declared",
+      "source_url": "https://www.firstminute.capital/about",
+      "checked_date": "2026-10-30"
+    }
+  ]
 }

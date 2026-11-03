@@ -8,7 +8,7 @@ An author and an assistant encode evidence, matching criteria and suggestion con
 
 | Pack | Browser file | What it demonstrates |
 | --- | --- | --- |
-| Research | [active-pack.js](dist/active-pack.js) | Nine investor/program profiles and three startup snapshots. Startup-only suggestions; no investor-topic connections documented. Seven profiles are reference-only. |
+| Research | [active-pack.js](dist/active-pack.js) | Fourteen investor/program profiles and three startup snapshots. Startup-only suggestions; no investor-topic connections documented. Seven profiles are reference-only. |
 | Fictional | [demo-active-pack.js](examples/demo-active-pack.js) | Two invented profiles and one snapshot. Demonstrates complete and partial support. |
 
 Download the raw browser file, copy it into Startup Guide's **packs/** folder as **active-pack.js**, then refresh. One pack is configured at a time. [Setup and four test cases](LOCAL_APP.md).
@@ -36,3 +36,11 @@ Start with an individual [investor profile](profiles/firstminute_capital.json) o
 Research accuracy, matching agreement and suggestion usefulness need separate assessment. Provider declarations and passing self-tests are not independent ratings. A connection does not establish investment, endorsement or what caused a startup to survive.
 
 Research retains its [editorial licence](LICENSE.md), [source bases](SOURCES.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [data notice](DATA_NOTICE.md). Transferred documentation and the methodology illustration retain their [MIT licence](APP_DOCS_LICENSE.md). Keep private research and credentials outside this repository.
+
+Investor-fit research: [claim contract, current scope and update procedure](INVESTOR_FIT.md). User workflows, matching semantics, implementation and release checkpoints live in the companion Startup Tarot application.
+
+The companion app is being designed toward LLM-driven founder research using these profiles, criteria and dated snapshots. The initial research workflow and OpenAI OAuth/model adapter are implemented in the companion app, with actual account/inference acceptance pending; working findings must be reviewed before becoming canonical pack facts. See [INVESTOR_FIT.md](INVESTOR_FIT.md) for the boundary.
+
+See [optional relationship artifact](RELATIONSHIPS.md); Guide Pack v2 is unchanged.
+
+See [manual browser distribution authoring](DISTRIBUTION.md) for modular release components and operator review responsibilities.

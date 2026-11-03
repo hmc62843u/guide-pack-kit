@@ -1,0 +1,84 @@
+{
+  "id": "boldstart_ventures_current_001",
+  "name": "boldstart ventures",
+  "data_kind": "research",
+  "source_url": "https://boldstart.vc/",
+  "retrieved_date": "2026-10-30",
+  "reviewed_date": "2026-10-30",
+  "stage_focus": [
+    "pre-company",
+    "idea",
+    "pre-seed"
+  ],
+  "sector_focus": [
+    "cybersecurity",
+    "AI infrastructure",
+    "physical AI",
+    "agents"
+  ],
+  "geography_focus": [],
+  "check_size_range_usd": "USD 500,000 to 15,000,000 first check",
+  "criteria_weights": {
+    "team_credibility": 0.2,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.2
+  },
+  "weights_basis": "editor_estimate",
+  "weight_notes": "Equal compatibility placeholders required by the legacy profile format; not investor weights and not used for fundraising fit.",
+  "profile_basis": "Independent limited factual paraphrase of official pages checked 2026-10-30. Category labels are editorial mappings, not full eligibility rules.",
+  "comparison_enabled": true,
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "explicit_criteria": [
+    "Can invest before company formation; inception is editorially mapped to pre-company, idea and pre-seed.",
+    "Published themes include cybersecurity, AI infrastructure, physical AI and agents.",
+    "The published first-check range is USD 500,000 to 15,000,000."
+  ],
+  "eligibility_requirements": [
+    "Technical-founder fit and geographic eligibility require confirmation."
+  ],
+  "anti_criteria": [],
+  "notes": "No experiment-topic connection or funding outcome is established. Missing criteria remain unknown. See source links and additional conditions before outreach.",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-company",
+        "idea",
+        "pre-seed"
+      ],
+      "statement": "Can invest before company formation; inception is editorially mapped to pre-company, idea and pre-seed.",
+      "source_url": "https://boldstart.vc/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "sector",
+      "values": [
+        "cybersecurity",
+        "AI infrastructure",
+        "physical AI",
+        "agents"
+      ],
+      "statement": "Published themes include cybersecurity, AI infrastructure, physical AI and agents.",
+      "source_url": "https://boldstart.vc/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "check",
+      "min": 500000,
+      "max": 15000000,
+      "currency": "USD",
+      "statement": "The published first-check range is USD 500,000 to 15,000,000.",
+      "source_url": "https://boldstart.vc/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    }
+  ]
+}

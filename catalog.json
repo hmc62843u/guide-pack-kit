@@ -8,7 +8,12 @@
     "profiles/lux_capital.json",
     "profiles/nsf_sbir_phase1.json",
     "profiles/sequoia_capital.json",
-    "profiles/ycombinator.json"
+    "profiles/ycombinator.json",
+    "profiles/hustle_fund.json",
+    "profiles/ada_ventures.json",
+    "profiles/concept_ventures.json",
+    "profiles/connect_ventures.json",
+    "profiles/boldstart_ventures.json"
   ],
   "snapshots": [
     "startups/airbnb_2009_01_23.json",

@@ -1,0 +1,96 @@
+{
+  "id": "hustle_fund_current_001",
+  "name": "Hustle Fund",
+  "data_kind": "research",
+  "source_url": "https://www.hustlefund.vc/faq",
+  "retrieved_date": "2026-10-30",
+  "reviewed_date": "2026-10-30",
+  "stage_focus": [
+    "pre-seed"
+  ],
+  "sector_focus": [
+    "software",
+    "SaaS"
+  ],
+  "geography_focus": [
+    "US",
+    "Canada",
+    "Southeast Asia"
+  ],
+  "check_size_range_usd": "USD 150,000 first check",
+  "criteria_weights": {
+    "team_credibility": 0.2,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.2
+  },
+  "weights_basis": "editor_estimate",
+  "weight_notes": "Equal compatibility placeholders required by the legacy profile format; not investor weights and not used for fundraising fit.",
+  "profile_basis": "Independent limited factual paraphrase of official pages checked 2026-10-30. Category labels are editorial mappings, not full eligibility rules.",
+  "comparison_enabled": true,
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "explicit_criteria": [
+    "Initial investments are pre-seed; later rounds are for existing portfolio companies.",
+    "Software across verticals; capital-intensive businesses are less favored.",
+    "Primary regions are the US, Canada and Southeast Asia.",
+    "The stated initial check is USD 150,000."
+  ],
+  "eligibility_requirements": [
+    "Full-time commitment is required; this comparison does not assess it."
+  ],
+  "anti_criteria": [
+    "Excludes pharmaceuticals, medical devices, art/film projects, land, restaurants, physical retail and traditional brick-and-mortar businesses. These exclusions are not automatically evaluated."
+  ],
+  "notes": "No experiment-topic connection or funding outcome is established. Missing criteria remain unknown. See source links and additional conditions before outreach.",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-seed"
+      ],
+      "statement": "Initial investments are pre-seed; later rounds are for existing portfolio companies.",
+      "source_url": "https://www.hustlefund.vc/faq",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": true
+    },
+    {
+      "field": "sector",
+      "values": [
+        "software",
+        "SaaS"
+      ],
+      "statement": "Software across verticals; capital-intensive businesses are less favored.",
+      "source_url": "https://www.hustlefund.vc/faq",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "geography",
+      "values": [
+        "US",
+        "Canada",
+        "Southeast Asia"
+      ],
+      "statement": "Primary regions are the US, Canada and Southeast Asia.",
+      "source_url": "https://www.hustlefund.vc/faq",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "check",
+      "min": 150000,
+      "max": 150000,
+      "currency": "USD",
+      "statement": "The stated initial check is USD 150,000.",
+      "source_url": "https://www.hustlefund.vc/faq",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    }
+  ]
+}

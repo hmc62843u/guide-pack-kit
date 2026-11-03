@@ -1,0 +1,92 @@
+{
+  "id": "ada_ventures_current_001",
+  "name": "Ada Ventures",
+  "data_kind": "research",
+  "source_url": "https://www.adaventures.com/partner-with-ada",
+  "retrieved_date": "2026-10-30",
+  "reviewed_date": "2026-10-30",
+  "stage_focus": [
+    "pre-seed"
+  ],
+  "sector_focus": [
+    "climate",
+    "economic empowerment",
+    "healthy ageing"
+  ],
+  "geography_focus": [
+    "UK"
+  ],
+  "check_size_range_usd": "GBP 250,000 to 1,000,000",
+  "criteria_weights": {
+    "team_credibility": 0.2,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.2
+  },
+  "weights_basis": "editor_estimate",
+  "weight_notes": "Equal compatibility placeholders required by the legacy profile format; not investor weights and not used for fundraising fit.",
+  "profile_basis": "Independent limited factual paraphrase of official pages checked 2026-10-30. Category labels are editorial mappings, not full eligibility rules.",
+  "comparison_enabled": true,
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "explicit_criteria": [
+    "Primarily pre-seed, before clear product-market fit.",
+    "UK focus; Ireland and Nordic companies require a UK link. Other locations need confirmation.",
+    "The published first-round check range is GBP 250,000 to 1,000,000.",
+    "Published themes are climate equity, economic empowerment and healthy ageing; labels are editorial mappings."
+  ],
+  "eligibility_requirements": [
+    "Impact and technology defensibility require separate review."
+  ],
+  "anti_criteria": [],
+  "notes": "No experiment-topic connection or funding outcome is established. Missing criteria remain unknown. See source links and additional conditions before outreach.",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-seed"
+      ],
+      "statement": "Primarily pre-seed, before clear product-market fit.",
+      "source_url": "https://www.adaventures.com/partner-with-ada",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "geography",
+      "values": [
+        "UK"
+      ],
+      "statement": "UK focus; Ireland and Nordic companies require a UK link. Other locations need confirmation.",
+      "source_url": "https://www.adaventures.com/partner-with-ada",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "check",
+      "min": 250000,
+      "max": 1000000,
+      "currency": "GBP",
+      "statement": "The published first-round check range is GBP 250,000 to 1,000,000.",
+      "source_url": "https://www.adaventures.com/partner-with-ada",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    },
+    {
+      "field": "sector",
+      "values": [
+        "climate",
+        "economic empowerment",
+        "healthy ageing"
+      ],
+      "statement": "Published themes are climate equity, economic empowerment and healthy ageing; labels are editorial mappings.",
+      "source_url": "https://www.adaventures.com/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    }
+  ]
+}

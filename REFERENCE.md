@@ -53,3 +53,11 @@ LLM-assisted encoding can vary and contain errors. Deterministic rules can repea
 Provider self-tests check the candidate matcher, not source truth, next-move prioritization, saved progress or founder outcomes. Four passing no-match cases in the current researched pack do not demonstrate positive coverage. Provider identity and quality declarations are not authenticated or independently certified.
 
 Use [CONTRIBUTING.md](CONTRIBUTING.md) for extension points and [prompts/review.md](prompts/review.md) for review handoffs. Executable matching, prioritization and interface changes belong in [Startup Guide](https://github.com/hmc62843u/startup-guide/blob/main/DEVELOPMENT.md#extension-points-and-contracts); supported declarative criteria and experiment content belong in this Kit.
+
+## Fundraising comparison
+
+The experiment-topic connections above are distinct from fundraising fit. [INVESTOR_FIT.md](INVESTOR_FIT.md) defines the optional dated mandate claims, current collection scope and research-update procedure. The companion app owns result labels, sector vocabulary, shortlist storage and outreach templates. A fundraising criterion does not create a startup-lesson connection.
+
+## Initial runtime research integration
+
+A future LLM research workflow in the companion app is distinct from LLM-assisted authoring described above. It would consume bounded evidence packets and produce labelled findings, hypotheses and investigations with source references and revision history. The initial packet/history/adapter code is implemented; live inference and research usefulness are not validated. Source support, historical information availability and usefulness must be assessed separately; generated findings do not automatically alter canonical records.

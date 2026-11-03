@@ -1,0 +1,49 @@
+{
+  "id": "concept_ventures_current_001",
+  "name": "Concept Ventures",
+  "data_kind": "research",
+  "source_url": "https://concept.vc/",
+  "retrieved_date": "2026-10-30",
+  "reviewed_date": "2026-10-30",
+  "stage_focus": [
+    "pre-seed"
+  ],
+  "sector_focus": [],
+  "geography_focus": [],
+  "check_size_range_usd": "Up to USD 1,500,000; lower bound not established",
+  "criteria_weights": {
+    "team_credibility": 0.2,
+    "problem_clarity": 0.2,
+    "technical_feasibility": 0.2,
+    "market_urgency": 0.2,
+    "traction_evidence": 0.2
+  },
+  "weights_basis": "editor_estimate",
+  "weight_notes": "Equal compatibility placeholders required by the legacy profile format; not investor weights and not used for fundraising fit.",
+  "profile_basis": "Independent limited factual paraphrase of official pages checked 2026-10-30. Category labels are editorial mappings, not full eligibility rules.",
+  "comparison_enabled": true,
+  "funding_type": "equity",
+  "organization_type": "vc",
+  "explicit_criteria": [
+    "The firm identifies pre-seed as its initial focus."
+  ],
+  "eligibility_requirements": [
+    "Publishes a maximum first-round check of USD 1,500,000; no lower bound was verified, so automatic check comparison remains unknown.",
+    "Geographic eligibility and sector mandate were not verified from this page."
+  ],
+  "anti_criteria": [],
+  "notes": "No experiment-topic connection or funding outcome is established. Missing criteria remain unknown. See source links and additional conditions before outreach.",
+  "fit_claims": [
+    {
+      "field": "stage",
+      "values": [
+        "pre-seed"
+      ],
+      "statement": "The firm identifies pre-seed as its initial focus.",
+      "source_url": "https://concept.vc/",
+      "checked_date": "2026-10-30",
+      "basis": "declared",
+      "strict": false
+    }
+  ]
+}
