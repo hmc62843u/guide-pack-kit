@@ -52,7 +52,7 @@ LLM-assisted encoding can vary and contain errors. Deterministic rules can repea
 
 Provider self-tests check the candidate matcher, not source truth, next-move prioritization, saved progress or founder outcomes. Four passing no-match cases in the current researched pack do not demonstrate positive coverage. Provider identity and quality declarations are not authenticated or independently certified.
 
-Use [CONTRIBUTING.md](CONTRIBUTING.md) for extension points and [prompts/review.md](prompts/review.md) for review handoffs. Executable matching, prioritization and interface changes belong in [Startup Guide](https://github.com/hmc62843u/startup-guide/blob/main/DEVELOPMENT.md#extension-points-and-contracts); supported declarative criteria and experiment content belong in this Kit.
+Use [CONTRIBUTING.md](CONTRIBUTING.md) for extension points and [prompts/review.md](prompts/review.md) for review handoffs. Executable matching, prioritization and interface changes belong in [Startup Guide](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules); supported declarative criteria and experiment content belong in this Kit.
 
 ## Fundraising comparison
 

@@ -49,4 +49,4 @@ These cases do not evaluate source truth, startup-only UI suggestions, ranking, 
 
 ## Use in Startup Guide
 
-[LOCAL_APP.md](LOCAL_APP.md) covers copying packs, four support-state tests and save/reload checks. [The app guide](https://github.com/hmc62843u/startup-guide/blob/main/GUIDE.md) describes Situation, Next move, Investor and Startup. [App development](https://github.com/hmc62843u/startup-guide/blob/main/DEVELOPMENT.md) owns executable behavior and software checks. No research or automatic source updates run in the app.
+[LOCAL_APP.md](LOCAL_APP.md) covers copying packs, four support-state tests and save/reload checks. [The app guide](https://github.com/hmc62843u/startup-tarot/blob/main/GUIDE.md) describes Situation, Next move, Investor and Startup. [App development](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md) owns executable behavior and software checks. No research or automatic source updates run in the app.

@@ -1,6 +1,6 @@
 # Guide Pack Kit
 
-**Turn research into small experiments for [Startup Guide](https://github.com/hmc62843u/startup-guide).**
+**Turn research into small experiments for [Startup Guide](https://github.com/hmc62843u/startup-tarot).**
 
 An author and an assistant encode evidence, matching criteria and suggestion content. Startup Guide applies the rules locally. No Node, Python or packaging script is required to author or use prepared packs.
 

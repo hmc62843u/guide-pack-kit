@@ -50,6 +50,6 @@ The app can offer startup-only suggestions from compatible researched lessons. T
 - Follow the [review stage](prompts/review.md) for changed distributable records/components and their exact-byte hashes. Update `SOURCES.md` and applicable notices; preserve unresolved facts as unknown or omit unresolved additions.
 - Follow the [packaging stage](prompts/package.md) for changed JSON. Preserve stable identities, increase its version and report checks honestly. Documentation/prompt-only changes need no manufactured record review or JSON version bump.
 - In a proposed contribution, explain the problem, responsible files, evidence, expected behavior, actual checks and remaining limitations. Supply source references and preserve required attribution.
-- For app changes, use [Startup Guide's development guide](https://github.com/hmc62843u/startup-guide/blob/main/DEVELOPMENT.md#extension-points-and-contracts) extension contracts and regression checks. Pack tests measure candidate agreement; app tests check software behavior. Neither certifies source truth or founder outcomes.
+- For app changes, use [Startup Guide's development guide](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules) extension contracts and regression checks. Pack tests measure candidate agreement; app tests check software behavior. Neither certifies source truth or founder outcomes.
 
 Commit, submit or publish only within the contributor's authorization. No automatic publication or independent certification is implied by following this guide.
