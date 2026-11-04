@@ -1,11 +1,11 @@
-# Configure the lean Startup Guide
+# Configure the lean Startup Tarot
 
 **Prepare one trusted pack → copy its browser script → refresh the app.** No import or settings screen is needed. No Node or Python is required for this manual workflow.
 
 ## Copy a ready-made file
 
 1. Download [research active-pack.js](dist/active-pack.js) or [fictional demo-active-pack.js](examples/demo-active-pack.js). Download the raw file, not a GitHub HTML page.
-2. Replace Startup Guide’s packs/active-pack.js with it. Rename the fictional file to active-pack.js.
+2. Replace Startup Tarot’s packs/active-pack.js with it. Rename the fictional file to active-pack.js.
 3. Refresh the app. The header says Research examples or Fictional demo.
 
 Required research notices already accompany the app; retain them. A different community pack must bring its own applicable notices. The prepared scripts contain the same complete data as their corresponding JSON files.
@@ -16,9 +16,9 @@ Required research notices already accompany the app; retain them. A different co
 | --- | --- |
 | dist/guide-pack.json | Complete researched JSON, still the canonical authoring deliverable |
 | examples/demo-guide-pack.json | Entirely fictional complete/partial connection test data |
-| Startup Guide: packs/active-pack.js | Browser-readable configured pack; works from file URLs |
+| Startup Tarot: packs/active-pack.js | Browser-readable configured pack; works from file URLs |
 
-Copy the entire chosen JSON object into a plain UTF-8 file with this wrapper, then save it as **packs/active-pack.js** in Startup Guide, replacing the existing file:
+Copy the entire chosen JSON object into a plain UTF-8 file with this wrapper, then save it as **packs/active-pack.js** in Startup Tarot, replacing the existing file:
 
 ~~~javascript
 globalThis.STARTUP_GUIDE_PACK = /* the complete JSON object goes here */;

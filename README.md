@@ -1,8 +1,8 @@
 # Guide Pack Kit
 
-**Turn research into small experiments for [Startup Guide](https://github.com/hmc62843u/startup-tarot).**
+**Turn research into small experiments for [Startup Tarot](https://github.com/hmc62843u/startup-tarot).**
 
-An author and an assistant encode evidence, matching criteria and suggestion content. Startup Guide applies the rules locally. No Node, Python or packaging script is required to author or use prepared packs.
+An author and an assistant encode evidence, matching criteria and suggestion content. Startup Tarot applies the rules locally. No Node, Python or packaging script is required to author or use prepared packs.
 
 ## Try a pack
 
@@ -11,7 +11,7 @@ An author and an assistant encode evidence, matching criteria and suggestion con
 | Research | [active-pack.js](dist/active-pack.js) | Fourteen investor/program profiles and three startup snapshots. Startup-only suggestions; no investor-topic connections documented. Seven profiles are reference-only. |
 | Fictional | [demo-active-pack.js](examples/demo-active-pack.js) | Two invented profiles and one snapshot. Demonstrates complete and partial support. |
 
-Download the raw browser file, copy it into Startup Guide's **packs/** folder as **active-pack.js**, then refresh. One pack is configured at a time. [Setup and four test cases](LOCAL_APP.md).
+Download the raw browser file, copy it into Startup Tarot's **packs/** folder as **active-pack.js**, then refresh. One pack is configured at a time. [Setup and four test cases](LOCAL_APP.md).
 
 ## Make your own
 

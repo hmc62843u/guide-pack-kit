@@ -1,6 +1,6 @@
 # Guide Pack format
 
-This kit targets startup-guide's v2 contract. The exact shape is in schema/guide-pack-v2.schema.json; [GUIDE_PACKS.md](GUIDE_PACKS.md) describes authoring, validation constraints and examples. Runtime validation additionally checks dates, references, supported contexts and source URLs. Schemas are format references, not factual or legal approval.
+This kit targets startup-tarot's v2 contract. The exact shape is in schema/guide-pack-v2.schema.json; [GUIDE_PACKS.md](GUIDE_PACKS.md) describes authoring, validation constraints and examples. Runtime validation additionally checks dates, references, supported contexts and source URLs. Schemas are format references, not factual or legal approval.
 
 ## Three components, one JSON
 
@@ -14,7 +14,7 @@ flowchart TB
         Research -->|referenced by| Matching
         Matching -->|references| Suggestions
     end
-    Pack --> App["Startup Guide\nvalidates and applies app-owned rules"]
+    Pack --> App["Startup Tarot\nvalidates and applies app-owned rules"]
 ```
 
 | Component | Editable source in this kit | Responsibility |
@@ -172,7 +172,7 @@ Increase the package version when cases change. Establish expectations before ru
 
 Maximum 5 MB; at least one fact record; at most 250 profiles, 250 snapshots, 500 investor topics, 500 rules and 500 suggestions. Record IDs are unique within their arrays; rule and suggestion IDs are unique simple 3–64-character lowercase IDs starting with a letter. Fictional demo packages require dataset_kind:fictional and fictional records throughout. Do not disguise real records as invented examples.
 
-V1 packages still work in the app but lack provider and quality metadata. The app materializes v2 components into its existing matching view without executing imported code or mutating package facts. A new operator needs changes in startup-guide. One active package at a time; workspace notes are separated by provider ID, library ID and version. IDs are declared, not authenticated.
+V1 packages still work in the app but lack provider and quality metadata. The app materializes v2 components into its existing matching view without executing imported code or mutating package facts. A new operator needs changes in startup-tarot. One active package at a time; workspace notes are separated by provider ID, library ID and version. IDs are declared, not authenticated.
 
 ## Evaluation and review
 
@@ -188,4 +188,4 @@ The assigned JSON follows this contract. For direct-file use, distribute a synch
 
 `AUTHORING_PROMPT.md` coordinates focused stages in `prompts/`; `CONTRIBUTING.md` maps quality goals to extension points and review methods. These authoring modules do not change the JSON contract or allow imported executable code.
 
-The kit uses catalog.json to select research records by root-relative paths, schema/ for format definitions, components/ for the decision recipe and suggestions, package-metadata.json for declarations, and dist/guide-pack.json as the complete deliverable. Keep provider and library IDs stable when renaming products; the existing starter IDs are retained for workspace compatibility. Maintain this contract in guide-pack-kit. Startup Guide retains runtime schemas and validators; refresh its package and required notices together only when authorized.
+The kit uses catalog.json to select research records by root-relative paths, schema/ for format definitions, components/ for the decision recipe and suggestions, package-metadata.json for declarations, and dist/guide-pack.json as the complete deliverable. Keep provider and library IDs stable when renaming products; the existing starter IDs are retained for workspace compatibility. Maintain this contract in guide-pack-kit. Startup Tarot retains runtime schemas and validators; refresh its package and required notices together only when authorized.

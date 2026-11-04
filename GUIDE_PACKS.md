@@ -47,6 +47,6 @@ Up to 50 hypothetical cases can describe a startup context, investor IDs, expect
 
 These cases do not evaluate source truth, startup-only UI suggestions, ranking, usefulness or outcomes. Compatible data can still be stale, incomplete or wrong. Keep actual results and limitations distinct from provider-declared quality.
 
-## Use in Startup Guide
+## Use in Startup Tarot
 
 [LOCAL_APP.md](LOCAL_APP.md) covers copying packs, four support-state tests and save/reload checks. [The app guide](https://github.com/hmc62843u/startup-tarot/blob/main/GUIDE.md) describes Situation, Next move, Investor and Startup. [App development](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md) owns executable behavior and software checks. No research or automatic source updates run in the app.

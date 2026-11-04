@@ -4,14 +4,14 @@
 
 This reference and illustration retain their [original MIT licence](APP_DOCS_LICENSE.md). Research records keep their separate terms.
 
-![Sources enter LLM-assisted encoding and review. The configured pack supplies facts, topics and lessons; Startup Guide checks context and evidence before showing an interpreted next move.](assets/methodology.svg)
+![Sources enter LLM-assisted encoding and review. The configured pack supplies facts, topics and lessons; Startup Tarot checks context and evidence before showing an interpreted next move.](assets/methodology.svg)
 
 ## Two stages
 
 | Stage | Who does it? | Result |
 | --- | --- | --- |
 | Encode and review | A contributor, with an LLM or another assistant | Dated facts, sources, topics, rules and proposed experiments in a complete Guide Pack |
-| Apply rules | Startup Guide's JavaScript | A relevant move and its evidence status for the user's situation and chosen investor |
+| Apply rules | Startup Tarot's JavaScript | A relevant move and its evidence status for the user's situation and chosen investor |
 
 The browser uses one configured local pack. It makes no LLM calls, searches or automatic research updates. A script wrapper makes the complete JSON data readable on direct-file URLs; it does not replace the app's engine. [Authoring guide](GUIDE_PACKS.md) · [Local setup](LOCAL_APP.md).
 
@@ -52,7 +52,7 @@ LLM-assisted encoding can vary and contain errors. Deterministic rules can repea
 
 Provider self-tests check the candidate matcher, not source truth, next-move prioritization, saved progress or founder outcomes. Four passing no-match cases in the current researched pack do not demonstrate positive coverage. Provider identity and quality declarations are not authenticated or independently certified.
 
-Use [CONTRIBUTING.md](CONTRIBUTING.md) for extension points and [prompts/review.md](prompts/review.md) for review handoffs. Executable matching, prioritization and interface changes belong in [Startup Guide](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules); supported declarative criteria and experiment content belong in this Kit.
+Use [CONTRIBUTING.md](CONTRIBUTING.md) for extension points and [prompts/review.md](prompts/review.md) for review handoffs. Executable matching, prioritization and interface changes belong in [Startup Tarot](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules); supported declarative criteria and experiment content belong in this Kit.
 
 ## Fundraising comparison
 

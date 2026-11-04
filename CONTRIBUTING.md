@@ -8,9 +8,9 @@ Choose a quality goal, change the responsible extension point, then assess the r
 | Research better | Facts and provenance | `profiles/`, `startups/`, `catalog.json` | Check claim/source agreement, historical dates, unknowns and limitations. |
 | Research better | Review practices | [prompts/review.md](prompts/review.md), review register and source notices | Record what was reviewed, by whom, disagreements and unresolved rights. |
 | Match better | Investor topics and context conditions | `components/matching.json`; [prompts/matching.md](prompts/matching.md) | Establish expected matches, nonmatches and unknown-context cases before running them. |
-| Match better | Compatibility, operators and evidence merging | Startup Guide: `js/context.js`, `js/matching.js` | App behavioral and regression tests; new operators require app and format work. |
+| Match better | Compatibility, operators and evidence merging | Startup Tarot: `js/context.js`, `js/matching.js` | App behavioral and regression tests; new operators require app and format work. |
 | Suggest better | Action content and reasoning | `components/suggestions.json`; [prompts/suggestions.md](prompts/suggestions.md) | Review clarity, effort, relevance, cautions and observable learning; obtain actual founder feedback. |
-| Suggest better | Prioritization, fallback copy and presentation | Startup Guide: `js/recommendation.js`, `js/explanations.js`, `js/app.js` | Check representative priority conflicts, fallback explanations and real interface usability. |
+| Suggest better | Prioritization, fallback copy and presentation | Startup Tarot: `js/recommendation.js`, `js/explanations.js`, `js/app.js` | Check representative priority conflicts, fallback explanations and real interface usability. |
 | Assess quality better | Separate review methods and honest reporting | [prompts/review.md](prompts/review.md), package quality declarations | Report actual samples, results and limits; a declaration does not perform a review. |
 
 **Pack extension points** use the supported JSON contract. **App extension points** change JavaScript and require app tests. Guide Packs cannot execute provider code or replace the matching engine.
@@ -50,6 +50,6 @@ The app can offer startup-only suggestions from compatible researched lessons. T
 - Follow the [review stage](prompts/review.md) for changed distributable records/components and their exact-byte hashes. Update `SOURCES.md` and applicable notices; preserve unresolved facts as unknown or omit unresolved additions.
 - Follow the [packaging stage](prompts/package.md) for changed JSON. Preserve stable identities, increase its version and report checks honestly. Documentation/prompt-only changes need no manufactured record review or JSON version bump.
 - In a proposed contribution, explain the problem, responsible files, evidence, expected behavior, actual checks and remaining limitations. Supply source references and preserve required attribution.
-- For app changes, use [Startup Guide's development guide](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules) extension contracts and regression checks. Pack tests measure candidate agreement; app tests check software behavior. Neither certifies source truth or founder outcomes.
+- For app changes, use [Startup Tarot's development guide](https://github.com/hmc62843u/startup-tarot/blob/main/DEVELOPMENT.md#source-modules) extension contracts and regression checks. Pack tests measure candidate agreement; app tests check software behavior. Neither certifies source truth or founder outcomes.
 
 Commit, submit or publish only within the contributor's authorization. No automatic publication or independent certification is implied by following this guide.
