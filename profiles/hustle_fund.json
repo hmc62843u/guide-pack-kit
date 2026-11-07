@@ -92,5 +92,18 @@
       "basis": "declared",
       "strict": false
     }
+  ],
+  "timing_claims": [
+    {
+      "kind": "current_fund",
+      "basis": "observed",
+      "fund_name": "Fund III",
+      "announced_date": "2022-09-29",
+      "size": 46100000,
+      "currency": "USD",
+      "source_url": "https://techcrunch.com/2022/09/29/hustle-funds-side-hustle-just-helped-it-close-a-third-fund/",
+      "checked_date": "2026-11-06",
+      "statement": "Hustle Fund announced the close of its third fund with $46.1 million in commitments on 29 September 2022 (TechCrunch). Later reporting on a fourth fund was not checked."
+    }
   ]
 }

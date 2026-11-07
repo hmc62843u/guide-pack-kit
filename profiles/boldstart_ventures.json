@@ -80,5 +80,18 @@
       "basis": "declared",
       "strict": false
     }
+  ],
+  "timing_claims": [
+    {
+      "kind": "current_fund",
+      "basis": "observed",
+      "fund_name": "Fund VII",
+      "announced_date": "2025-07-08",
+      "size": 250000000,
+      "currency": "USD",
+      "source_url": "https://www.gunder.com/en/news-insights/client-news/boldstart-ventures-announces-dollar250m-fund-vii",
+      "checked_date": "2026-11-06",
+      "statement": "Boldstart announced a $250 million Fund VII on 8 July 2025 for inception-stage investments, reported by its counsel Gunderson Dettmer; the page does not state a final close."
+    }
   ]
 }

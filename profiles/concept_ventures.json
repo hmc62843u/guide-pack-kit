@@ -45,5 +45,18 @@
       "basis": "declared",
       "strict": false
     }
+  ],
+  "timing_claims": [
+    {
+      "kind": "current_fund",
+      "basis": "observed",
+      "fund_name": "Fund II",
+      "announced_date": "2025-09-30",
+      "size": 88000000,
+      "currency": "USD",
+      "source_url": "https://tech.eu/2025/09/30/concept-ventures-closes-88m-fund-ii-cementing-position-as-europes-largest-pre-seed-fund/",
+      "checked_date": "2026-11-06",
+      "statement": "Concept Ventures announced the close of an $88 million Fund II on 30 September 2025, for pre-seed investments in the UK and Europe (Tech.eu report quoting the firm)."
+    }
   ]
 }

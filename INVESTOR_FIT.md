@@ -4,7 +4,9 @@ This document is for Guide Pack authors. It defines the source-backed profile cl
 
 ## Current research scope
 
-Pack 0.8.0 has fourteen investor/program profiles and three startup snapshots. Six profiles support equity comparison: firstminute, Hustle Fund, Ada Ventures, Concept Ventures, Connect Ventures and boldstart. Seven historical records and the NSF grant program remain outside that equity shortlist.
+Pack 0.9.0 has fourteen investor/program profiles and three startup snapshots. Six profiles support equity comparison: firstminute, Hustle Fund, Ada Ventures, Concept Ventures, Connect Ventures and boldstart. Seven historical records and the NSF grant program remain outside that equity shortlist.
+
+Pack 0.9.0 adds a `current_fund` timing claim to five of the six equity profiles (all but Ada Ventures), checked on 2026-11-06; see "Optional timing_claims" below.
 
 Official pages for the six equity profiles were checked on 2026-10-30. This is a dated research statement, not a promise of current deployment capacity. The earlier 0.7.1 prototype supported firstminute alone; that earlier scope no longer describes the distributed pack.
 
@@ -39,6 +41,25 @@ This additive profile array works with the existing v1/v2 formats. It does not c
 | min, max, currency | Numeric ordered range and explicit three-letter currency for a check claim |
 
 Checked date is not publication date. Do not manufacture a publication date for an undated page. If a publication date or locator is known, retain it in the profile's source metadata. Claim labels are editorial mappings and must not imply more than the source establishes.
+
+## Optional timing_claims
+
+This additive profile array records when an investor's current fund was raised. It helps a founder judge whether an investor is likely to be making new investments now or mainly following on. It works with the existing v1/v2 formats, does not change the four-field fit comparison, and never affects a fit result or ranking. The runtime accepts at most ten timing claims per profile.
+
+| Field | Meaning |
+| --- | --- |
+| kind | current_fund (the only kind in this version) |
+| basis | declared (the investor's own announcement), observed (independent reporting) or inferred |
+| statement | Independent factual paraphrase, including uncertainty such as a first close rather than a final close |
+| source_url | Absolute HTTP/HTTPS source URL without credentials |
+| checked_date | Real calendar date in YYYY-MM-DD format when the claim was inspected |
+| fund_name | The fund's name as the source gives it, e.g. Fund VII |
+| announced_date | The announcement or close date, as precise as the source allows: YYYY, YYYY-MM or YYYY-MM-DD |
+| size, currency | Optional committed amount and its three-letter currency, as published; size requires currency |
+
+Use the investor's own announcement or a named news report of it. Do not use aggregator counts, investment-per-year estimates or database summaries. Record a first close as a first close; do not present a target as a closed amount. If no announcement can be found, omit the claim rather than estimating a date. A later fund replaces an earlier one as the current fund only when its announcement is checked.
+
+Investment pace (deals per year) is not a timing kind in this version. Funds rarely declare it, and third-party counts disagree.
 
 ## Research boundaries
 

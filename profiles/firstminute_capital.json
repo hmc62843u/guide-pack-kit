@@ -89,5 +89,16 @@
       "source_url": "https://www.firstminute.capital/about",
       "checked_date": "2026-10-30"
     }
+  ],
+  "timing_claims": [
+    {
+      "kind": "current_fund",
+      "basis": "observed",
+      "fund_name": "Fund III",
+      "announced_date": "2023-06-12",
+      "source_url": "https://techcrunch.com/2023/06/12/slacks-cal-henderson-and-sir-richard-branson-back-firstminute-capitals-third-fund",
+      "checked_date": "2026-11-06",
+      "statement": "firstminute announced its third fund on 12 June 2023 with $100 million raised at an initial close and a final close expected later that year; the final size was not checked."
+    }
   ]
 }

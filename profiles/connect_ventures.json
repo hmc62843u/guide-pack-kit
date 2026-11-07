@@ -81,5 +81,18 @@
       "basis": "declared",
       "strict": false
     }
+  ],
+  "timing_claims": [
+    {
+      "kind": "current_fund",
+      "basis": "observed",
+      "fund_name": "Fund V",
+      "announced_date": "2026-09-23",
+      "size": 55000000,
+      "currency": "USD",
+      "source_url": "https://tech.eu/2026/09/23/connect-ventures-announces-first-close-of-80m-fund-v-to-back-europes-technical-founders/",
+      "checked_date": "2026-11-06",
+      "statement": "Connect Ventures announced a $55 million first close of Fund V, toward an $80 million target, on 23 September 2026, for pre-seed technical founders in Europe (Tech.eu report quoting the firm). The size is the first close, not a final close."
+    }
   ]
 }
